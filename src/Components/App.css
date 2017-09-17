@@ -1,3 +1,53 @@
-h1 {
-  color: red;
+#app {
+  color: #424743;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+p,
+h4,
+label {
+  color: #757575;
+}
+
+label {
+  text-align: left;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.variables-container {
+  width: 300px;
+}
+
+.results-container {
+  width: 300px;
+}
+
+.col {
+  padding: 10px;
+  min-width: 300px;
+}
+
+.col-left {
+  flex: 1;
+}
+
+.col-right {
+  flex: 1;
+}
+
+.col-left > div {
+  margin-left: auto;
+}
+
+.col-right > div {
+  margin-right: auto;
+}
+
+.results-container img {
+  width: 128px;
 }
